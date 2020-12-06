@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  redis:
+    host: 192.168.188.128
+    port: 6379
+#springsession
+  session:
+    store-type: redis
+    timeout: 1800 #会话的超时时间 秒
+
